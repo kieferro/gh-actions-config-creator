@@ -1,0 +1,24 @@
+{
+  "name": "gh-actions-config-creator",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Create a valid configuration file for github actions with just a few clicks",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kieferro/gh-actions-config-creator"
+  },
+  "bugs": {
+    "url": "https://github.com/kieferro/gh-actions-config-creator/issues"
+  },
+  "homepage": "https://kieferro.github.io/gh-actions-config-creator/",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "svelte": "^3.55.1",
+    "vite": "^4.2.0"
+  }
+}
