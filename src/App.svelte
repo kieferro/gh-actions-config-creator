@@ -1,12 +1,12 @@
 <script lang="ts">
-  import Name from './lib/Name.svelte'
+  import Creator from './lib/Creator.svelte'
   import Header from "./lib/Header.svelte";
   import Footer from "./lib/Footer.svelte";
 </script>
 
 <main>
     <Header></Header>
-    <Name></Name>
+    <Creator></Creator>
     <Footer></Footer>
 </main>
 
