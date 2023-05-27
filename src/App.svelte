@@ -1,9 +1,14 @@
 <script lang="ts">
-  import Footer from './lib/Footer.svelte'
+  import Name from './lib/Name.svelte'
+  import Header from "./lib/Header.svelte";
+  import Footer from "./lib/Footer.svelte";
 </script>
 
-<h1>Project</h1>
-<Footer></Footer>
+<main>
+    <Header></Header>
+    <Name></Name>
+    <Footer></Footer>
+</main>
 
 <style>
 </style>
